@@ -1,0 +1,3730 @@
+* {
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    box-sizing: border-box;
+    /*    -webkit-touch-callout: none;    
+    -webkit-tap-highlight-color: rgba(0, 0, 0, 0);*/
+    /*-webkit-user-select: none;
+    -khtml-user-select: none;
+    -moz-user-select: none;
+    -ms-user-select: none;
+    user-select: none;*/
+}
+a {
+    -webkit-user-select: none;
+    -khtml-user-select: none;
+    -moz-user-select: none;
+    -ms-user-select: none;
+    user-select: none;
+}
+@font-face {
+    font-family: opensans;
+    src: url(fonts/open_sans_regular.ttf);
+    font-weight: normal;
+    font-style: normal;
+}
+@font-face {
+    font-family: opensans_bold;
+    src: url(fonts/OpenSans-Bold.ttf);
+    font-weight: bold;
+    font-style: normal;
+}
+@font-face {
+    font-family: opensans_light;
+    src: url(fonts/OpenSans-Light.ttf);
+    font-weight: normal;
+    font-style: normal;
+}
+head,
+body {
+    font-size: 16px;
+    /*    font-size: 24px;*/
+    font-family: opensans !important;
+    font-style: normal;
+    font-weight: normal;
+    margin: 0px;
+    padding: 0px;
+    user-select: none;
+    /* user can not select text in webpage */
+    -webkit-touch-callout: none;
+    -webkit-text-size-adjust: none;
+    -webkit-user-select: none;
+    /* Chrome all / Safari all */
+    -moz-user-select: none;
+    /* Firefox all */
+    -ms-user-select: none;
+    /* IE 10+ */
+}
+.container {
+    width: 100%;
+    margin: 0 auto;
+}
+#hmelogoId {
+    margin-top: 0%;
+    width: 235px;
+    height: auto;
+}
+input[type='text'],
+input[type="password"] {
+    font-family: opensans;
+}
+.ui-content {
+    padding: 0px;
+}
+img#hmelineId {
+    width: 290px;
+}
+/************************* Login and SignUp css ************************/
+
+/*
+// Allready defined below
+#loginemailId,
+#loginpasswordId,
+#signupemailId,
+#signuppasswordId {
+    text-align: center;
+    background-color: transparent;
+    border: none;
+    font-size: 1em;
+    text-shadow: none;
+    outline: none;
+    border: none;
+}*/
+
+.formfielddivId {
+    margin-left: 15%;
+    margin-right: 2%;
+}
+.footer-container {
+    width: 100%;
+    height: 60px;
+    position: absolute;
+    bottom: 0px;
+    left: 0%;
+    background-color: #9bbc35;
+    /*top: 85.9%;*/
+}
+.footer-content {
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    left: 10%;
+    width: 50%;
+}
+#footerdivId {
+    margin-bottom: 1%;
+    margin-left: 8%;
+}
+.loginclass,
+.signupclass {
+    /*  font-size: 2.4em;*/
+    color: #a8cd34;
+    text-shadow: none;
+    text-decoration: none;
+    /* position: relative;
+    left: 25%;*/
+}
+/*
+// not using
+#arrowdivId {
+    text-align: center;
+    margin-top: 4%;
+}
+
+#ftrSignupTextId {
+    font-size: 3.8em;
+    color: #888888;
+   
+}
+
+#modalId {
+    background-color: white;
+    height: 100px;
+    width: 250px;
+    position: fixed;
+    z-index: 1000;
+    left: 30%;
+    top: 40%;
+    margin: -25px 0 0 -25px;
+    border-radius: 15px;
+}
+*/
+/*#messagediv,
+#buttondiv,*/
+button {
+    outline: 0;
+    -webkit-box-shadow: none;
+    -moz-box-shadow: none;
+    background-color: transparent;
+    border: none;
+    font-size: 1em;
+    text-shadow: none;
+}
+
+.logoImage {
+    max-width: 100%;
+}
+/*
+// Alrady defined below
+.action-button-container {
+    display: table-cell;
+    width: 15%;
+    height: 100%;
+    text-align: center;
+    vertical-align: middle;
+}
+.action-button {
+    max-width: 82%;
+    vertical-align: middle;
+    margin-left: 10px;
+}
+.locationsearchBoxDiv {
+    display: table-cell;
+    height: 100%;
+    width: 70%;
+    text-align: center;
+    vertical-align: middle;
+}
+.locationTextDiv {
+    display: table-cell;
+    background-color: transparent;
+    border: none;
+    width: 90%;
+    height: 100%;
+    text-align: center;
+    vertical-align: middle;
+    padding: 1.75%;
+}
+.border-bottomline {
+    border-bottom: 1px solid #878787;
+}
+.locationSerchbarInputboxClass {
+    background: transparent;
+    width: 100%;
+    height: 100%;
+    outline: none;
+    border: none;
+    border-bottom: 1px solid #878787;
+    font-size: 0.9em;
+}
+
+.locationSearchCancelDiv {
+    display: table-cell;
+    width: 15%;
+    height: 100%;
+    cursor: pointer;
+    text-align: center;
+    vertical-align: middle;
+}
+.locationSearchCancelDiv img {
+    max-width: 100%;
+    text-align: center;
+    vertical-align: middle;
+    padding: 16.6%;
+}
+.menuimageDiv {
+    display: table-cell;
+    width: 15%;
+    height: 100%;
+    text-align: center;
+    vertical-align: middle;
+}
+.search-row {
+    display: table;
+    width: 100%;
+    background: black;
+}
+*/
+a:hover {
+    cursor: pointer;
+}
+.row {
+    display: block;
+    clear: both;
+}
+.col-left {
+    float: left;
+}
+.col-right {
+    float: right;
+}
+/*   
+//already defined
+#search-item-txtbox {
+    background-color: transparent;
+    height: 100%;
+    width: 100%;
+    border: 0px;
+    color: #ffffff;
+    outline: none;
+    font-size: 1em;
+    text-indent: 2%;
+}
+#item-cancel-button {
+    text-align: center;
+    vertical-align: middle;
+    max-width: 100%;
+}
+#item-search-button-div {
+    display: table-cell;
+    height: 100%;
+    width: 12%;
+    text-align: center;
+    vertical-align: middle;
+}
+
+#item-search-button {
+    max-width: 100%;
+    cursor: pointer;
+    padding: 12.5%;
+    text-align: center;
+    vertical-align: middle;
+    border-left: 2px solid #ffffff;
+}
+*/
+.content 
+{
+    margin: auto;
+}
+/*  //already defined below
+.titlebar h3 {
+    text-align: center;
+    margin: 0px;
+    margin-bottom: 20px;
+    font-size: 26px;
+    font-weight: 400;
+    line-height: 1.7em;
+}
+*/
+.name {
+    display: inline;
+    font-size: 25px;
+    padding: 12px 0 0 0px;
+    width: 70%;
+    float: left;
+    text-align: center;
+}
+/*  
+// we are not using
+.navebarDivClass {
+    background-color: #5A7B1F;
+    padding: 1px;
+}
+.navebarUL {
+    list-style: none;
+    padding: 0px;
+    margin: 0px;
+}
+.nav-item {
+    display: inline-block;
+    width: 32.33%;
+    padding: 10px 0px;
+    word-wrap: break-word;
+}
+
+.listMenuDiv {
+    text-align: center;
+}
+.listMenuDiv a {
+    text-decoration: none;
+}
+.listMenuDiv:after {
+    content: '';
+    background: transparent url(headerImage/disclosure_down.png) no-repeat scroll 50% 50%;
+    height: 26px;
+    float: right;
+    width: 34px;
+}
+*/
+.middle {
+    position: absolute;
+    width: 100%;
+    top: 46px;
+    bottom: 0px;
+    overflow: auto;
+}
+/*
+// we are not using it
+#search-header {
+    height: auto;
+}
+.search-header-cell {
+    padding: 0px 5px;
+    vertical-align: middle;
+}
+
+#search-subheader {
+    height: auto;
+    visibility: collapse;
+}
+*/
+#search-screen-footer {
+    opacity: 0.95;
+    height: 9%;
+    /*  position: absolute;*/
+    position: fixed;
+    z-index: 10;
+    bottom: 0px;
+    width: 100%;
+    border-color: #b2b2b2;
+    background-color: #f8f8f8;
+    color: #444;
+    visibility: collapse;
+}
+/* 
+//  we are not using it
+.search-header-button {
+    background: transparent;
+    border: none;
+    font-weight: 300;
+    font-size: 2em;
+    color: white;
+}
+.nutr-item {
+    padding: 0px;
+    font-size: 0.8em;
+    font-weight: 300;
+}
+
+.menuBtn {
+    background-color: #38c;
+    color: white;
+    padding: 3px;
+    font-size: 15px;
+    position: absolute;
+    right: 1%;
+    top: 12px;
+    cursor: pointer;
+}
+*/
+#more-info-div {
+    display: table-cell;
+    text-align: center;
+    vertical-align: middle;
+    color: white;
+    font-size: 1em;
+    width: 15%;
+    border: 1px solid #000000;
+    background: rgb(230, 90, 115);
+    cursor: pointer;
+}
+/*
+ // we are not using it
+.subheader-icon {
+    font-size: 0.8em;
+    font-weight: 300;
+}
+*/
+#map-canvas {
+    width: 100%;
+    /* position: absolute;*/
+    position: relative;
+    margin: 0px;
+    padding: 0px
+}
+/*
+//we are not using it
+#currentLocationMarker-tooltip {
+    display: none;
+    position: absolute;
+    width: 400px;
+    height: 200px;
+    background-color: #ccc;
+    margin: 15px;
+}
+
+.controls {
+    margin-top: 16px;
+    border: 1px solid transparent;
+    border-radius: 2px 0 0 2px;
+    box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    height: 32px;
+    outline: none;
+    box-shadow: 0 2px 6px rgba(0, 0, 0, 0.3);
+}
+*/
+#pac-input:focus {
+    border-color: #4d90fe;
+    font-size: 1.1em;
+}
+/*
+ // we are not using it
+.centeralign {
+    text-align: center;
+}
+.full-width {
+    width: 100%;
+}
+*/
+.search_rest_image {
+    display: table-cell;
+    width: 13%;
+    height: 100%;
+    padding: 5px;
+    vertical-align: middle;
+    text-align: center;
+}
+img#footer-icon {
+    max-width: 40px;
+    max-height: 40px;
+    height: auto;
+    width: 100%;
+}
+#footer-rest-name {
+    display: table-cell;
+    width: 52%;
+    vertical-align: middle;
+    text-align: left;
+    font-size: 1.2em;
+    font-weight: bold;
+}
+.card {
+    padding-top: 1px;
+    padding-bottom: 1px;
+    /*box-shadow: 0 1px 1px rgba(0,0,0,.1);*/
+}
+/*
+ // we are not using it
+.card, .list-inset {
+    overflow: hidden;
+    margin: 5px 5px !important;
+    border-radius: 2px;
+    background-color: #fff;
+}
+
+#place-details-content .list {
+  
+}
+#place-details-content .list .item-divider {
+  
+}
+.rest-img-place-details {
+    width: 15%;
+}
+*/
+.rest-img-place-details .rest-img-class {
+    /* max-width: 100%;*/
+    width: 39px;
+    height: 39px;
+}
+/*
+ // alreadt defined 
+.rest-details {
+    width: 70%;
+}*/
+.rest-name-list {
+    font-size: 1.3em;
+    margin-top: 0px;
+    margin-bottom: 0px;
+}
+.place-list-rating {
+    padding: 0px;
+    margin: 0px;
+}
+.address-list-Div {
+    padding: 0px;
+    /*width: 70%;*/
+    width: 68%;
+    font-size: 13px;
+    line-height: 1.1;
+    text-shadow: none;
+}
+.item-list-entry {
+    margin-top: -6px;
+    margin-bottom: 0px;
+    margin-left: 13px;
+    padding: 0px;
+    font-size: 11px;
+    color: #444444;
+}
+.item-avatar>p {
+    /*  font-size: 2em;
+    font-weight: 700; */
+    text-align: center;
+    margin: 0px;
+    padding: 0px;
+    overflow: visible;
+}
+
+#menu-btn-div {
+    display: table-cell;
+    cursor: pointer;
+    width: 20%;
+    height: 100%;
+    background-color: #4793d1;
+    color: white;
+    font-size: 1em;
+    font-weight: bold;
+    text-shadow: none;
+    vertical-align: middle;
+    text-align: center;
+}
+
+.item-image {
+    text-align: center;
+}
+.card.item.item-text-wrap {
+    text-align: center;
+}
+.item-image img {
+    max-width: 100%;
+    text-align: center;
+    height: auto;
+}
+/*
+//not using
+.col-10 {
+    max-width: 10%;
+    flex: 1;
+}*/
+
+
+/* Smartphones (portrait and landscape) ----------- */
+
+@media only screen and (max-width: 508px) {
+    #place_list_div {
+        position: absolute;
+        box-shadow: -4px -3px 10px 0px rgb(118, 118, 118);
+        float: right;
+        /*        bottom: 56%;*/
+        transform: rotate(270deg);
+        transform-origin: left top 0;
+        -webkit-transform: rotate(270deg);
+        -webkit-transform-origin: left top 0;
+        background-color: black;
+        right: -35px;
+        height: 27px;
+        width: 65px;
+        border-radius: 3px;
+        padding: 5px;
+    }
+}
+/* Smartphones end (portrait and landscape) ----------- */
+
+/* iPads (portrait and landscape) ----------- */
+
+/*@media screen and (device-aspect-ratio: 3/4) {
+  
+    #place_list_div 
+    {
+        position: absolute;
+        float: right;
+        font-size: x-large;
+        bottom: 20%;
+        transform: rotate(270deg);
+        transform-origin: left top 0;
+        -webkit-transform: rotate(270deg);
+        -webkit-transform-origin: left top 0;
+        background-color: black;
+        right: -9.6%;
+        height: 80%;
+        width: 17%;
+        border-radius: 3px;
+        padding: 17px;
+    }
+    #search-screen-footer{
+font-size:1em!important;
+height: 7%!important;
+    }
+    
+}  */
+
+#place-list-button {
+    color: white;
+    text-shadow: none;
+    text-transform: uppercase;
+    font-weight: normal;
+    font-size: 1.1em;
+}
+/* ---------------------------Nutrition Details Page Start -------------------------------------- */
+
+.back-button-on-nutriton-Div {
+    /*    width: 14%;
+    height: 40px;*/
+    line-height: 0;
+    display: table-cell;
+    width: 20%;
+    text-align: center;
+    vertical-align: middle;
+}
+#nutrition-header-rest-name {
+    display: table-cell;
+    width: 80%;
+    text-align: center;
+    vertical-align: middle;
+    text-shadow: none;
+    text-align: center;
+    font-weight: bold;
+    overflow: hidden;
+}
+.nutrition-header-heading .restitemheading {
+    padding-left: 10px;
+    width: 100%;
+    text-align: left;
+}
+.nutrition-header-heading .page-heading {
+    display: table-cell;
+    vertical-align: middle;
+    text-shadow: none;
+    font-weight: normal;
+    font-size: 1em;
+    overflow: hidden;
+    text-align: left;
+    padding-left: 10px;
+    width: 100%;
+    line-height: 15px;
+}
+#food-nutrition-data img {
+    border: 1px solid black;
+    padding: 2px;
+}
+.filterBtnImage {
+    position: absolute;
+    right: 12%;
+    top: 3px;
+    /* right: 36px; */
+}
+.filter-setting-image {
+    max-width: 100%;
+    /* 100% */
+    text-align: center;
+    vertical-align: middle;
+}
+#nutrition-details-progress-bar {
+    position: fixed;
+    bottom: 0px;
+    height: 48px;
+    width: 100%;
+    display: block;
+    visibility: visible;
+    background-color: #db566d;
+    /*border-top: 1px solid #bbbbbb;*/
+}
+#place_list_mapbtnDivId {
+    position: absolute;
+    box-shadow: -4px 3px 10px 0px rgb(118, 118, 118);
+    top: 35%;
+    right: -35px;
+    z-index: 1000;
+    height: 27px;
+    width: 65px;
+    border-radius: 4px;
+    transform: rotate(270deg);
+    transform-origin: left top 0;
+    -webkit-transform: rotate(270deg);
+    -webkit-transform-origin: left top 0;
+    background-color: black;
+}
+#currentLocationButton {
+    position: absolute;
+    box-shadow: -2px 3px 10px 0px rgba(73, 73, 73, 1);
+    top: 130px;
+    z-index: 1000;
+    height: 36px;
+    width: 36px;
+    border-radius: 4px;
+    -webkit-transform: rotate(360deg);
+    -webkit-transform-origin: left top 0;
+    background-color: #FFFFFF;
+}
+#currentLocationButton img {
+    top: 2px;
+    left: 6px;
+    margin: 2px;
+}
+#place-list-map-btn {
+    position: relative;
+    top: 0px;
+    /*left: 14px;*/
+    font-size: 1em;
+    text-decoration: none;
+    text-shadow: none;
+    color: white;
+    line-height: 2;
+}
+/*
+#cartfooter {
+    /* position: fixed;*/
+    position: relative;
+    bottom: 1%;
+    left:0px;
+    height: 15%;
+    width: 100%;
+    box-shadow: 0px 5px 14px grey inset;
+    /*height: 100%;
+    width: 100%;
+    position: absolute;
+    top: 0px;
+    left: 0%*/
+}
+*/
+/* iPhone 4 */
+
+/*@media screen and (device-aspect-ratio: 2/3) {
+     #cartfooter{
+        bottom: 3%!important;
+     }
+     
+     #compareFromMealCartButton
+     {
+       bottom: 24%!important; 
+     }
+}*/
+
+/* iPhone 5 */
+
+/* @media screen and (device-aspect-ratio: 40/71) {
+ 
+    #cartfooter {
+ position: fixed; 
+position: relative;
+bottom: -3%;
+height: 15%;
+width: 100%;
+box-shadow: 0px 5px 14px grey inset;
+}
+     
+} */
+
+/* iPhone 6 */
+
+/*@media screen and (device-aspect-ratio: 375/667){
+     #cartfooter
+     {
+         bottom: -3%!important;
+     bottom: -20px!important;
+     }
+ }*/
+
+/* iPhone 6+ */
+
+/*@media screen and (device-aspect-ratio: 9/16){
+    #cartfooter{
+        bottom: -33px!important;
+    }
+}*/
+
+/*ipad*/
+
+/*@media screen and (device-aspect-ratio: 3/4){
+    #cartfooter {
+            bottom: -77px!important;
+                }
+}*/
+
+#basic-profile-topdiv {
+    position: fixed;
+    top: 0px;
+    left: 0px;
+    width: 100%;
+    color: #CCC;
+    background: #82ab39;
+    /*padding: 2px;*/
+    height: 55px;
+}
+#firstNameId,
+#lastNameId,
+#ageId,
+#sexId,
+#heightId,
+#weightId,
+#heightinchId {
+    text-align: center;
+    outline: 0;
+    -webkit-box-shadow: none;
+    -moz-box-shadow: none;
+    background-color: transparent;
+    border: none;
+    font-size: 1em;
+    text-shadow: none;
+}
+.popupMenu-container {
+  /*  visibility: hidden;*/
+    padding: 0;
+    outline: 0;
+    position: absolute;
+    /*top: 8%;*/
+    right: 2%;
+    width: 54%;
+    z-index: 1111;
+}
+.popupMenu-Div {
+    background-color: #fff;
+    border-color: #621212;
+    margin-top: -3px;
+    border-radius: 2px;
+    color: #333;
+    box-shadow: 0 3px 12px rgba(0, 0, 0, .6);
+    min-width: 160px;
+}
+.popupMenu-Div ul {
+    margin: 0;
+    padding: 0;
+    list-style: none;
+}
+.popupMenu-Div ul li {
+    display: block;
+    position: relative;
+    overflow: visible;
+    margin-left: 30px;
+    padding: 8px 21px;
+    list-style: none;
+    border-bottom: 1px solid #DB566D;
+    font-weight: 500;
+    font-size: 1em;
+}
+.popupMenu-Div ul li a {
+    border-color: #ddd;
+    color: #DB566D;
+    letter-spacing: -0.6px;
+    margin-left: -20px;
+    display: block;
+    position: relative;
+    text-align: left;
+    text-overflow: ellipsis;
+    overflow: hidden;
+    white-space: nowrap;
+    text-decoration: none;
+}
+
+.toggleVisible {
+    visibility: visible!important;
+}
+.dvLoading1 {
+    background: url(../img/activeLoadImg.gif) no-repeat center center;
+    height: 100px;
+    width: 100px;
+    position: fixed;
+    z-index: 1000;
+    left: 45%;
+    top: 45%;
+    margin: -25px 0 0 -25px;
+    border: 1px;
+}
+.dvLoading {
+    background-color: transparent;
+    opacity: 0.9;
+    height: 100%;
+    width: 100%;
+    position: fixed;
+    z-index: 99999;
+}
+#modalId {
+    background-color: white;
+    height: 100px;
+    width: 250px;
+    position: fixed;
+    z-index: 1000;
+    left: 30%;
+    top: 40%;
+    margin: -25px 0 0 -25px;
+    border-radius: 15px;
+}
+/*#messagediv,
+#buttondiv,*/
+button {
+    outline: 0;
+    -webkit-box-shadow: none;
+    -moz-box-shadow: none;
+    background-color: transparent;
+    border: none;
+    font-size: 1em;
+    text-shadow: none;
+}
+div#topdiv {
+    /*position: fixed;*/
+    top: 0px;
+    left: 0px;
+    width: 100%;
+    height: 55px;
+    color: #CCC;
+    background: #82ab39;
+}
+
+div#MessagedivId {
+    width: 60%;
+    height: 100%;
+    float: left;
+    overflow-y: auto;
+    text-align: center;
+}
+
+.scroll::-webkit-scrollbar {
+    width: 6px;
+    display: none;
+}
+.scroll::-webkit-scrollbar-track {
+    -webkit-box-shadow: inset 0 0 6px rgba(0, 0, 0, 0.3);
+    border-radius: 10px;
+    display: none;
+}
+.scroll::-webkit-scrollbar-thumb {
+    border-radius: 10px;
+    -webkit-box-shadow: inset 0 0 6px rgba(0, 0, 0, 0.5);
+    background-color: #9bbc35;
+}
+hr {
+    height: 3px;
+}
+.nutrient-profile-nutrient-value {
+    /* border-radius: 5px;*/
+    border: 1.8px solid rgb(221, 144, 157);
+    font-size: 16px;
+    width: 61px;
+    text-align: center;
+    outline: none;
+    padding-top: 2px;
+}
+.highlight {
+    color: #9BBC35;
+}
+.un_highlight {
+    color: black;
+}
+#modalId {
+    background-color: white;
+    height: 100px;
+    width: 250px;
+    position: fixed;
+    z-index: 1000;
+    left: 30%;
+    top: 40%;
+    margin: -25px 0 0 -25px;
+    border-radius: 15px;
+}
+/*#messagediv,
+#buttondiv,*/
+button {
+    outline: 0;
+    -webkit-box-shadow: none;
+    -moz-box-shadow: none;
+    background-color: transparent;
+    border: none;
+    font-size: 1em;
+    text-shadow: none;
+}
+.headername {
+    /*font-family: century gothic;*/
+    font-size: 1.3em;
+    color: #444444;
+    text-decoration: none;
+    outline: none;
+    text-shadow: none;
+    font-weight: 700;
+}
+.content {
+    position: relative;
+    top: 55px;
+    margin: 0px;
+    padding: 0px;
+    border: 0;
+    -webkit-box-sizing: border-box;
+}
+.content ul {
+    margin: 0;
+    padding: 0;
+    border: 0;
+    vertical-align: baseline;
+    font: inherit;
+    font-size: 100%;
+    list-style: none;
+}
+.content ul li {
+    border-color: #ddd;
+    background-color: #fff;
+    color: #444;
+    position: relative;
+    /* z-index: 2;*/
+    margin: -1px;
+    border-width: 1px;
+    border-style: solid;
+    font-size: 1.3em;
+}
+div.bottomdiv {
+    position: fixed;
+    box-shadow: 0 -5px 11px -4px #646161;
+    bottom: 0px;
+    left: 0px;
+    width: 100%;
+    color: #CCC;
+    background: white;
+    height: 46px;
+}
+.scroll::-webkit-scrollbar {
+    width: 6px;
+    display: none;
+}
+.scroll::-webkit-scrollbar-track {
+    -webkit-box-shadow: inset 0 0 6px rgba(0, 0, 0, 0.3);
+    border-radius: 10px;
+    display: none;
+}
+.scroll::-webkit-scrollbar-thumb {
+    border-radius: 10px;
+    -webkit-box-shadow: inset 0 0 6px rgba(0, 0, 0, 0.5);
+    background-color: #9bbc35;
+}
+#list,
+#messagelist {
+    background-color: white;
+    text-align: center
+}
+.horizontal {
+    display: inline;
+    /*    border-left: 2px solid;*/
+    border-left: 2px solid black;
+    padding-left: 5px;
+    padding-right: 2px;
+    font-size: .9em;
+    padding-top: 4px;
+    color: white;
+    cursor: pointer;
+}
+.first {
+    color: #a996a4;
+    border-left: none;
+    padding-left: 2px;
+    width: 25%;
+    padding-top: 4px;
+}
+.message {
+    border-left: none;
+    padding-left: 0;
+    font-size: x-small
+}
+.numberCircle {
+    border-radius: 60%;
+    behavior: url(PIE.htc);
+    padding: 2px 1px 0px 2px;
+    border: 1px solid #FFF;
+    color: white;
+    text-shadow: none;
+    font-size: 11.1px;
+    width: 20px;
+    height: 20px;
+    text-align: -webkit-center;
+}
+.deleteClass {
+    position: absolute;
+    right: 4px;
+    top: 5px;
+    text-align: center;
+    font-weight: bold;
+    font-size: 1.5em;
+    height: 28px;
+    line-height: 1.8;
+    width: 30px;
+    cursor: pointer;
+    /* position: relative;
+    float:right;
+    bottom: 20px;
+    text-align: right;
+    font-weight: bold;
+    font-size: 1.5em;
+    height: 2%;
+    width: 4%;
+    cursor: pointer;*/
+}
+
+.addcart-select {
+    font-family: -webkit-body;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: bold;
+    color: black;
+    text-indent: 3%;
+    border: none;
+    outline: none;
+    text-shadow: none;
+    background-color: #82ab39;
+}
+.mealcart-empty-div {
+    display: table-cell;
+    height: 100%;
+    width: ;
+}
+.rownutritionvalue {
+    display: inline-block;
+    width: 20%;
+}
+
+.footerbar-menu {
+      width: 33%;
+      height: 58px;
+      /*background-color: rgb(228, 101, 122);*/
+      padding-top: 10px;
+      text-align: center;
+      border-right: 1px solid rgb(82, 74, 74);
+}
+.footerbar-menu a {
+    color: white;
+    text-decoration: none;
+    font-size: 0.9em;
+}
+.feeltap {
+    -webkit-tap-highlight-color: rgba(0, 0, 0, 0);
+    -webkit-tap-highlight-color: transparent;
+    /* For some Androids */
+}
+.feeltap:active {
+    -webkit-tap-highlight-color: #9BA2A8;
+    /* rgba(0, 0, 0, 0);*/
+    background-color: #9BA2A8 !important;
+    -webkit-transform: scale3d(0.9, 0.9, 1);
+}
+#toTop {
+    display: block;
+    position: fixed;
+    top: 89%;
+    right: 0;
+}
+
+#nutrition-view-filter-button-div {
+    display: table-cell;
+    width: 15%;
+    height: 100%;
+    text-align: center;
+    vertical-align: middle;
+    /*background: lightblue;*/
+}
+#nutrition-view-filter-edit-button-div {
+    display: table-cell;
+    width: 14%;
+    height: 100%;
+    text-align: center;
+    vertical-align: middle;
+    /*   background: pink;*/
+}
+
+.food-menu {
+    /*background: red;*/
+    /*color: white;*/
+    background: white;
+    color: black;
+    font-weight: 500;
+    font-size: 1.3em;
+    /*    padding-left: 3%;*/
+    text-shadow: none;
+    cursor: pointer;
+}
+.food-menu-group {
+    /*background: yellow;*/
+    background: white;
+    font-weight: 500;
+    font-size: 15px;
+    color: black;
+    padding: 1px 0px;
+    margin: 10px 0px;
+    text-shadow: none;
+}
+.food-menu-item {
+    margin: 5px 0px;
+    padding: 10px 10px 10px 10px;
+    /*background: lightgreen;*/
+    /*background: white;*/
+    font-weight: 300;
+    font-size: 0.6em;
+    /*padding-left: 10%;*/
+    text-shadow: none;
+    color: black;
+    list-style-type: none;
+}
+.cart-item {
+    /* margin: 10px;
+    padding: 10px 5px;*/
+    /*background: lightgreen;*/
+    /*background: white;*/
+    font-weight: 300;
+    font-size: 0.6em;
+    /*padding-left: 10%;*/
+    text-shadow: none;
+    color: black;
+    list-style-type: none;
+}
+.food-menu-item:nth-child(odd) {
+    background: #f0f0f0;
+}
+.food-menu-item:nth-child(even) {
+    background: #F7F7F7;
+}
+
+.row, .col {
+    margin: 0px;
+    padding: 0px 12px;
+    /*border: 1px solid white;*/
+}
+
+.food-item-name-Div {
+    width: 70%;
+    display: inline-block;
+}
+
+.food-serving-unit {
+    font-weight: 400;
+    font-size: 1em;
+    padding-left: 5px;
+}
+.food-item-price {
+    width: 7%;
+    font-weight: 600;
+    font-size: 1.5em;
+    text-align: right;
+    color: #aaaaaa;
+    display: inline-block;
+    vertical-align: top;
+    margin-top: 10px;
+}
+.filter-item-selected {
+    background: cyan;
+}
+.food-item-nutrient-value {
+    color: #889E64;
+    font-size: 1.5em;
+    font-weight: bold;
+    display: inline-block;
+    width: 20%;
+}
+#nutrition-compare-table td {
+    border: 1px solid gray;
+}
+#nutrition-compare-table thead {
+    background: yellow;
+}
+#nutrition-compare-table td:first-child {
+    font-weight: bold;
+    font-size: 0.8em;
+}
+#nutrition-compare-table td:not(:first-child) {
+    width: 35%;
+    text-align: center;
+    font-size: 0.8em;
+}
+#nutrition-compare-table tr:nth-child(2) {
+    font-size: 1em;
+    font-weight: bold;
+}
+/* Mehul's Css */
+
+.unmarging-ul {
+    margin: 0px;
+    padding: 0px;
+    /*padding-top: 7px;*/
+    -webkit-margin-before: 0px;
+    -webkit-padding-start: 1px;
+    -webkit-margin-after: 0px;
+}
+.food-menu .food-menu-padding {
+    /* padding-left: 10%;*/
+    padding-bottom: 15%; //saurav
+}
+.food-menu-group.food-menu-group-padding {
+    padding-left: 4%;
+}
+.food-menu-group.food-menu-group-padding > ul > li {
+    /*margin-left: -15%;*/
+    /* margin-right: -15%;*/
+}
+.menu-btn-details-page {
+    float: right;
+    padding: 10px 0px;
+    position: relative;
+    top: -14px;
+    text-align: center;
+    background-color: #4793d1;
+    color: #ffffff;
+    font-size: 13px;
+    text-shadow: none;
+    cursor: pointer;
+    margin-top: 10px;
+    width: 52px;
+    border-radius: 4px;
+}
+
+#place-list-content .card {
+    position: relative;
+}
+/* Item/Rest search page */
+
+#homepage .container {
+    width: 100%;
+    margin: 0 auto;
+    /*        color: #EF5D77;*/
+}
+#homepage .container .bodycontent {
+    margin: auto;
+    height: 100%;
+    font-family: opensans_light;
+}
+#homepage .container .bodycontent .titlebar {
+    height: 50px;
+    color: #EF5D77;
+    background-color: #fffffb;
+}
+.titlebar h3 {
+    text-align: center;
+    margin: 0px;
+    margin-bottom: 20px;
+    font-size: 26px;
+    font-weight: 400;
+    line-height: 1.7em;
+}
+.bodycontent .row .imgshow {
+    padding-bottom: 0px;
+    width: 100%;
+    float: left;
+    /* padding-left: 2%;*/
+    text-align: center;
+    Hi All,
+}
+.bodycontent .row .imgshow img {
+    width: 138px;
+    height: auto;
+}
+
+#inter-rest-nutrition-compare-page .content {
+    position: relative;
+    top: 0px;
+    margin: 0px;
+    padding: 0px;
+    border: 0;
+    -webkit-box-sizing: border-box;
+}
+.submenuForExternalcompare {
+    display: none;
+    position: absolute;
+    top: -69px;
+    background-color: #ffffff;
+    border-radius: 7px;
+    text-align: center;
+    color: green;
+}
+.submenuForExternalcompare #externalCompareButton {
+    padding: 7px 5px;
+    border-bottom: 1px solid;
+    cursor: pointer;
+}
+.submenuForExternalcompare #internalCompareButton {
+    padding: 7px 0px;
+    cursor: pointer;
+}
+.moreForRestaurantSearch {
+    float: right;
+    margin-right: 10px;
+    font-size: 0.9em;
+    line-height: 1.5;
+    font-weight: normal;
+    padding-top: 6px;
+}
+#nutrition-details-page-new .nutrition-view-header div .menu-header:after {
+    vertical-align: -webkit-baseline-middle;
+    content: url("../img/sort_both.png");
+    border: 1px;
+    padding-left: 6px;
+    /*content: '';*/
+}
+#nutrition-details-page-new .nutritionix_logo {
+    display: none;
+    width: 100%;
+    float: left;
+    position: fixed;
+    bottom: 0px;
+    text-align: right;
+    background-color: white;
+    margin-bottom: 45px;
+}
+#nutrition-details-page-new .nutritionix_logo img {
+    margin-right: 10px;
+}
+
+#nutrition-details-page-new .nutrition-view-header div .menu-header.ascending:after {
+    /* content: '\25B2';*/
+    vertical-align: -webkit-baseline-middle;
+    content: url("../img/sort_asc.png");
+}
+#nutrition-details-page-new .nutrition-view-header div .menu-header.descending:after {
+    /* content: '\25BC';*/
+    vertical-align: -webkit-baseline-middle;
+    content: url("../img/sort_desc.png");
+}
+#addtocart-details-page-new .nutrition-view-header div .menu-header {
+    padding: 4% 0px;
+    font-size: 13px;
+}
+.exCompareDialogClass,
+.addfilter-popup,
+.changeQuantityClass {
+    margin-top: 33%;
+    margin-left: 11%;
+    width: 75%;
+    background-color: #fff;
+    color: #DB7E8F;
+    border: 3px solid #000000;
+    border-top: 7px solid #000000;
+    text-align: center;
+    text-shadow: none;
+    font-weight: bold;
+    padding: 3px 0px 8px 0px;
+    z-index: 9999;
+}
+
+/*
+@media only screen and (max-width : 508px) {
+
+#compareFromMealCartButton
+{
+   
+    
+    display: block;
+    position: relative;
+    width: 85px;
+    bottom: 21%;
+    float: right;
+    background-color: #8DAB2F;
+    padding: 3px 3px;
+    color: white;
+    font-size: 1.1em;
+    font-weight: bold;
+    cursor: pointer;
+    text-shadow: none;
+    
+}
+}
+
+ // iPhone 5 
+ @media screen and (device-aspect-ratio: 40/71) {
+
+#compareFromMealCartButton {
+
+    
+    display: block;
+    position: relative;
+    width: 85px;
+    bottom: 17%;
+    float: right;
+    background-color: #8DAB2F;
+    padding: 3px 3px;
+    color: white;
+    font-size: 1.1em;
+    font-weight: bold;
+    cursor: pointer;
+    text-shadow: none;
+    
+    }
+}
+
+// iPhone 6 
+@media screen and (device-aspect-ratio: 375/667){
+    #compareFromMealCartButton{
+     bottom: 16%!important;
+    }
+}
+
+@media screen and (device-aspect-ratio: 9/16){
+    #compareFromMealCartButton{
+        bottom: 14.4%;
+       
+    }
+}
+    
+
+// iPads (portrait and landscape) 
+@media only screen and (min-device-width : 768px) and (max-device-width : 1024px) and (orientation : portrait)  {
+    
+#compareFromMealCartButton {
+    
+    display: block;
+    position: relative;
+    width: 85px;
+    bottom: 10%;
+    float: right;
+    background-color: #8DAB2F;
+    padding: 3px 3px;
+    color: white;
+    font-size: 1.1em;
+    font-weight: bold;
+    cursor: pointer;
+    text-shadow: none;
+    
+ }
+}*/
+
+.fullPopupDialog {
+  width: 100%;
+  height: 100%;
+  position: fixed;
+  top: 0px;
+  background-color: rgba(0, 0, 0, 0.3);
+  display: none;
+  z-index: 5;
+}
+/* /compare screen end  */
+
+#nutrition-filter-check-all,
+#nutrition-chart-check-all {
+    text-align: center;
+    vertical-align: middle;
+}
+#okButtonECompareId,
+#cancelButtonECompareId {
+    width: 85px;
+    height: 30px;
+    background-color: #DB7E8F;
+    border: none;
+    border-radius: 7px;
+    font-weight: bold;
+    margin-left: 5px;
+    text-shadow: none;
+    margin-top: 5px;
+    outline: none;
+}
+
+.cleareAllSelectedMenuItems {
+    position: absolute;
+    bottom: -75px;
+    right: 5px;
+    z-index: 9999;
+    cursor: pointer;
+    padding: 5px 12px;
+    font-weight: bold;
+    color: #ffffff;
+    background-color: #ae6572;
+    text-shadow: none;
+    display: none;
+}
+div#nutrition-details-content ul,
+div#nutrition-details-content ul li {
+    list-style: none;
+}
+.signSignup {
+    vertical-align: top;
+    font-weight: normal;
+    float: right;
+    padding: 5px;
+}
+.showUnitSpan {
+    font-size: .5em;
+    font-weight: normal;
+    text-align: right;
+    position: absolute;
+    right: 12px;
+    padding-top: 4px;
+}
+
+#search-screen #content-area {
+    padding: 0px;
+    height: 75%;
+}
+/*  ---------------------------   NEW MHG 1.5 ------------- start ---------- */
+
+#login-page .login_page_logo_div,
+#signup-page .signup_page_logo_div {
+    text-align: center;
+}
+
+#landing-page,
+#login-page,
+#signup-page {
+    background-image: url(../img/landingScreenImg/landingPageBG.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+#landing-page .landing_page_logo_div {
+    text-align: center;
+    padding-top: 30%;
+}
+#landing-page .login-signup-footer,
+#login-page .login-signup-footer,
+#signup-page .login-signup-footer {
+    position: fixed;
+    bottom: 0px;
+    height: 55px;
+    background-color: #ffffff;
+    width: 100%;
+}
+#landing-page .login-signup-footer div,
+#login-page .login-signup-footer div,
+#signup-page .login-signup-footer div {
+    float: left;
+    text-align: center;
+    font-size: 2em;
+}
+#landing-page .login-signup-footer .leftButtonClass,
+#landing-page .login-signup-footer .rightButtonClass {
+    width: 49%;
+    height: 100%;
+  /*  line-height: 1.5;*/
+    
+    display: table;
+}
+#landing-page .login-signup-footer #logindivId a,
+#landing-page .login-signup-footer #signupdivId a {
+    text-decoration: none;
+    color: #2b0519;
+    display: table-cell;
+    vertical-align: middle;
+}
+#landing-page .login-signup-footer .login-signup-separatorDiv,
+#login-page .login-signup-footer .login-signup-separatorDiv,
+#signup-page .login-signup-footer .login-signup-separatorDiv {
+    width: 2%;
+    height: 100%;
+}
+#landing-page .login-signup-footer .chevronImage,
+#login-page .login-signup-footer .chevronImage,
+#signup-page .login-signup-footer .chevronImage {
+ /*   position: relative;*/
+   /* height: 55px;*/
+      height: 100%;
+}
+/*
+#landing-page .loginfield,.signupfield
+{
+    
+}
+#landing-page .login-signup-footer .loginClass
+{
+    font-size: 3.7em;
+    line-height: 1.1em !important;
+}
+#landing-page .login-signup-footer .signupClass
+{
+    font-size: 3.3em;
+    line-height: 1.3em !important;
+}*/
+
+/* ---------------------------------------login-page -------------------------------------*/
+
+/* ---------------------------------------signup-page -------------------------------------*/
+
+#login-page .login-signup-footer #loginButtonId .arrowImgClass,
+#signup-page .login-signup-footer #signupButtonId .arrowImgClass {
+   /* max-width: 26px;*/
+    vertical-align: middle;
+    width: 25px;
+    height: 30px;
+    /*margin-left: 3%;*/
+}
+#signup-page .login-signup-footer .leftButtonClass,
+#login-page .login-signup-footer .leftButtonClass {
+    width: 36%;
+    font-size: 1.5em;
+    height: 100%;
+/*    line-height: 2.2;*/
+    display: table;
+
+}
+#signup-page .login-signup-footer .rightButtonClass,
+#login-page .login-signup-footer .rightButtonClass {
+    width: 62%;
+    height: 100%;
+    font-size: 2.4em;
+   /* line-height: 1.2;*/
+    display: table;
+}
+
+a.footerButtonAnchors
+{
+    text-decoration: none;
+    color: #000000;
+    display: table-cell;
+    vertical-align: middle;
+}
+
+
+#signup-page .formfieldElements,
+#login-page .formfieldElements {
+    margin: 0 auto;
+    width: 250px;
+}
+#login-page .formfieldElements .email-bottom-border-img,
+#signup-page .formfieldElements .email-bottom-border-img {
+    width: 100%;
+    margin-bottom: 6%;
+}
+#login-page .formfieldElements .password-bottom-border-img,
+#signup-page .formfieldElements .password-bottom-border-img {
+    width: 100%;
+    margin-bottom: 6%;
+}
+#loginemailId,
+#loginpasswordId,
+#signupemailId,
+#signuppasswordId {
+    text-align: center;
+    background-color: transparent;
+    border: none;
+    font-size: 1.2em;
+    text-shadow: none;
+    outline: none;
+    border: none;
+    width: 100%;
+    color: #ffffff;    
+}
+a.login-signup-cancel-button {
+    text-decoration: inherit;
+    color: #000000;
+}
+/* ---------------------------------------common-page -------------------------------------*/
+
+.header-row {
+    display: table;
+    width: 100%;
+    background-color: #2b0519;
+    color: #ffc9d2;
+    position: fixed;
+    top: 0px;
+    z-index: 999;
+}
+.logoImageDiv {
+    display: table-cell;
+    width: 15%;
+    height: 100%;
+    text-align: center;
+    vertical-align: middle;
+}
+
+.locationsearchBoxDiv {
+    display: table-cell;
+    height: 100%;
+    width: 72%;
+    text-align: center;
+    vertical-align: middle;
+}
+.menuimageDiv {
+    display: table-cell;
+    width: 13%;
+    height: 100%;
+    text-align: center;
+    vertical-align: middle;
+}
+img.menuid {
+    max-width: 100%;
+    text-align: center;
+    vertical-align: middle;
+    padding: 8px;
+    cursor: pointer;
+}
+.menu-header {
+    position: relative;
+    width: 20%;
+    display: inline-block;
+    color: white;
+    font-size: 11px;
+    text-align: center;
+    text-shadow: none;
+    padding: 3% 0px;
+    vertical-align: initial;
+    border-right: 1px solid rgba(43, 5, 25, 0.15);
+}
+.search-row {
+    display: table;
+    width: 100%;
+    background: #ffffff;
+    border-bottom: 2px solid #db566d;
+}
+.middle-content {
+    position: fixed;
+    overflow: scroll;
+    width: 100%;
+}
+#msg {
+    position: absolute;
+    top: 43%;
+    left: 15%;
+    z-index: 999999;
+    width: 70%;
+    background-color: #fff;
+    color: #DC566E;
+    border: 3px solid #DC566E;
+    border-top: 7px solid #DC566E;
+    text-align: center;
+    text-shadow: none;
+    font-weight: bold;
+    display: none;
+    padding: 3px 0px;
+}
+/* --------------------------------------- Place list page -------------------------------------*/
+
+.locationsearchBoxDiv .locationsearchBoxinnerDiv {
+    display: table;
+    width: 100%;
+    height: 50%;
+    text-align: center;
+    vertical-align: middle;
+}
+.locationTextDiv {
+    display: table-cell;
+    background-color: transparent;
+    border: none;
+    width: 85%;
+    height: 100%;
+    text-align: center;
+    vertical-align: middle;
+    padding: 1.75%;
+}
+.locationSerchbarInputboxClass {
+    background: transparent;
+    width: 100%;
+    height: 100%;
+    outline: none;
+    border: none;
+    border-bottom: 1px solid #db566d;
+    font-size: 0.9em;
+    color: #ffc9d2;
+    text-indent: 5px;
+}
+.locationSearchCancelDiv {
+    display: table-cell;
+    width: 10%;
+    height: 100%;
+    cursor: pointer;
+    text-align: center;
+    vertical-align: middle;
+}
+.locationSearchCancelDiv img#location-cancel-button {
+    max-width: 100%;
+    text-align: center;
+    vertical-align: middle;
+    padding: 14%;
+}
+.searchItemImageDiv {
+    display: table-cell;
+    width: 13%;
+    height: 100%;
+    text-align: center;
+    vertical-align: middle;
+}
+.search-row .searchItemImageDiv .searchItemImageIcon {
+    max-width: 75%;
+}
+.searchItemDiv {
+    display: table-cell;
+    width: 50%;
+    height: 100%;
+    text-align: center;
+    vertical-align: middle;
+}
+#search-item-txtbox,
+#itemSearchInputId {
+    background-color: transparent;
+    height: 100%;
+    width: 100%;
+    border: 0px;
+    color: #000000;
+    outline: none;
+    font-size: 1em;
+    text-indent: 5px;
+}
+.searchItemDiv #item-cancel-button {
+    width: 15%;
+    vertical-align: middle;
+    text-align: center;
+    height: 100%;
+    max-width: 100%;
+}
+.searchItemDiv .item-cancel-button-img {
+    text-align: center;
+    vertical-align: middle;
+    max-width: 100%;
+}
+#item-search-button {
+    display: table-cell;
+    height: 100%;
+    width: 13%;
+    text-align: center;
+    vertical-align: middle;
+    border-left: 1px solid #000000;
+    padding: 0px;
+    cursor: pointer;
+}
+#item-search-button-img {
+    max-width: 80%;
+    cursor: pointer;
+    text-align: center;
+    vertical-align: middle;
+}
+.locationTextDiv input[type="text"]::-webkit-input-placeholder {
+    color: #ffc9d2;
+}
+.locationTextDiv input[type="text"]::-moz-placeholder {
+    color: #ffc9d2;
+}
+.locationTextDiv input[type="text"]:-moz-placeholder {
+    color: #ffc9d2;
+}
+.locationTextDiv input[type="text"]:-ms-input-placeholder {
+    color: #ffc9d2;
+}
+.locationTextDiv input[class*="alertMsg"]::-webkit-input-placeholder {
+    color: red;
+}
+input[class*="alertMsg"]:-moz-placeholder {
+    /* Firefox 18- */
+    color: red;
+}
+input[class*="alertMsg"]::-moz-placeholder {
+    /* Firefox 19+ */
+    color: red;
+}
+input[class*="alertMsg"]:-ms-input-placeholder {
+    color: red;
+}
+input[class*="alertMsg"] {
+    color: red;
+}
+.alertMsg {
+    outline: 1px solid red !important;
+}
+#place-list-content {
+    position: relative;
+    overflow-y: scroll;
+    text-shadow: none;
+    height: 100%;
+    background-image: url(../img/landingScreenImg/landingPageBG.png);
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+#place-list-content .card {
+    position: relative;
+    overflow: hidden;
+    margin: 1px 0px !important;
+    border-radius: 8px;
+    padding: 0px;
+    box-sizing: border-box;
+    background-color: #ffffff;
+}
+#place-list-content .card.selected-place {
+    background-color: #ffe2e7;
+}
+#place-list-content .card .leftSide {
+    width: 86%;
+}
+#place-list-content .card .firstColumn {
+    width: 100%;
+}
+#place-list-content .card .firstColumn .rest-img-place-width {
+    content: ".";
+    visibility: hidden;
+}
+#place-list-content .card .firstColumn .rest-img-place-details,
+#place-list-content .card .firstColumn .rest-img-place-width {
+    width: 39px;
+    height: 39px;
+    margin-right: 2%;
+    margin-left: 8px;
+    margin-top: 14px;
+    background: rgb(43, 5, 25);
+}
+#place-list-content .card .address-list-Div {
+    width: 81%;
+    font-size: 13px;
+    line-height: 1.1;
+    text-shadow: none;
+    padding-right: 2%;
+}
+#place-list-content .card .rest-details,
+#place-list-content .card .address-list-Div {
+    width: 78%;
+    padding-top: 9px;
+}
+#place-list-content .card .rightSide {
+    text-align: right;
+    padding: 0px;
+    height: 100%;
+    width: 14%;
+}
+#place-list-content .card .rightSide .more-info-btn,
+#place-list-content .card .rightSide .menu-btn {
+    max-width: 100%;
+}
+#place-list-content .card .rest-details .place-distance {
+    position: absolute;
+    right: 1px;
+    bottom: 6px;
+    font-size: 12px;
+    font-weight: bold;
+}
+/* ----------------------------------------------- More info page -------------------------------------*/
+
+#place-details-page .header-row .locationsearchBoxDiv a.back-button-on-header {
+    text-decoration: none;
+    margin-left: 10%;
+    padding: 10px 0px;
+}
+#place-details-page .header-row .back_iconId {
+    vertical-align: middle;
+    max-width: 80%
+}
+#place-details-page .header-row .spanTextForBackButton {
+    font-size: 1.4em;
+    font-weight: lighter;
+    vertical-align: middle;
+    color: #DA556D;
+    text-shadow: none;
+}
+#place-details-page .search-row .menuitemSerchbarInputboxClass {
+    background-color: transparent;
+    height: 100%;
+    width: 100%;
+    border: 0px;
+    color: #000000;
+    outline: none;
+    font-size: 1em;
+    text-indent: 5%;
+}
+#place-details-page .search-row .searchItemDiv {
+    display: table-cell;
+    width: 100%;
+    height: 100%;
+    text-align: center;
+    vertical-align: middle;
+}
+#place-details-content,
+#place-list-content {
+    /*position: relative;
+    top: 48px;*/
+    overflow-y: scroll;
+    text-shadow: none;
+    height: 100%;
+    background-color: #ffffff;
+    padding-bottom: 30px;
+}
+#place-details-content {
+    width: 88%;
+    margin: 0 auto;
+}
+#place-details-content .rest-info {
+    overflow: hidden;
+    margin: 5px 0px;
+    border-radius: 2px;
+    background-color: #fff;
+}
+#place-details-content .rest-info .rest-image-div {
+    width: 28%;
+    padding: 1%;
+}
+#place-details-content .rest-info .rest-nameAddress-div {
+    width: 72%;
+}
+#place-details-content .rest-info #place-details-name {
+    font-size: 1.3em;
+    font-weight: bold;
+    text-align: left;
+    overflow: visible;
+    margin: 0px;
+}
+#place-details-content .rest-info .rest-address-details {
+    font-size: 0.9em;
+    font-weight: 400;
+    text-align: left;
+    margin: 0px;
+}
+#place-details-content .rest-info .menu-btn {
+    cursor: pointer;
+    text-align: right;
+}
+#place-details-content .rest-info .menu-btn img {
+    max-width: 20%;
+}
+#place-details-content #place-reviews .review-details {
+    margin-bottom: 10px;
+}
+#place-details-content #place-reviews .review-details .place-review-name {
+    text-align: left;
+    display: block;
+    font-size: 1.1em;
+    font-weight: bold;
+}
+#place-details-content #place-reviews .review-details p {
+    margin: 0px;
+}
+.expandItemSearchId,
+#cancelDeleteFilterId,
+#cancelToSaveFilterId,
+#cancelExpandItemSearchId {
+    width: 90px;
+    height: 30px;
+    background-color: #DB7E8F;
+    border: none;
+    border-radius: 7px;
+    font-weight: bold;
+}
+/*-----------------------------------------My Mealcart -----------------------------*/
+
+#addtocart-details-page-new .header-row .locationsearchBoxDiv a.back-button-on-header {
+    text-decoration: none;
+    margin-left: 10%;
+}
+#addtocart-details-page-new #cartfooter .meallimit_font {
+    width: 100%;
+    float: left;
+    font-size: 8.5px;
+    color: rgb(60, 61, 61);
+    margin-left: 2px;
+    letter-spacing: -0.4px;
+}
+#addtocart-details-page-new .header-row .locationsearchBoxDiv .back-button-on-header img.back_iconId {
+    vertical-align: middle;
+    max-width: 80%;
+}
+#addtocart-details-page-new .header-row .locationsearchBoxDiv .header-content {
+    display: table-cell;
+    width: 33%;
+    padding: 0 10px;
+    height: 100%;
+    text-align: left;
+}
+.myMeal-headerText {
+    text-shadow: none;
+    color: rgb(218, 85, 109);
+    font-weight: bold;
+    font-size: 0.9em;
+    margin-top: -3px;
+}
+#addcart-select {
+    background: transparent;
+    width: 100%;
+    color: #FFC9D2;
+    outline: none;
+    border: none;
+    -webkit-appearance: none;
+    -moz-appearance: none;
+    background: url("../img/arrow-down-01-32.png") no-repeat right #fff;
+    font-size: 1.2em;
+    background-color: #2B0519;
+    box-shadow: none;
+    margin-left: -5px;
+    margin-top: -2px;
+}
+.lable-for-filter-on-mealcart-header {
+    text-shadow: none;
+    color: rgb(218, 85, 109);
+    font-weight: bold;
+    font-size: 0.7em;
+    opacity: 0.9;
+    margin-top: -6px;
+}
+#addtocart-details-page-new .subHeader-row {
+    width: 100%;
+    background: #ffffff;
+    display: table;
+    border-bottom: 2px solid #db566d;
+    height: 44px;
+}
+#addtocart-details-page-new .subHeader-row .clearMealDiv {
+    display: table-cell;
+}
+#addtocart-details-page-new .subHeader-row .editFilterDiv {
+    display: table-cell;
+    text-align: right;
+}
+.clearMealDiv #addToCartEmpty,
+.editFilterDiv #meal-cart-filter-edit img {
+    max-width: 25%;
+    margin-left: 10px;
+    cursor: pointer;
+}
+#cartfooter {
+    position: fixed;
+    bottom: 0px;
+    height: 54px;
+    left:0px;
+    width: 100%;
+    box-shadow: 0 -5px 11px -4px #646161;
+    background-color: #ffffff;
+}
+#cartfooter .valuesFromMealcart,
+#cartfooter .valuesFromFilter {
+    height: 20px;
+    width: 100%;
+    padding-top: 4px;
+    padding-left: 10%;
+    padding-right: 10%;
+}
+/*#cartfooter .valuesFromFilter
+{
+    height: 20px;
+    width: 100%;
+    color:grey;
+    padding-top: 10px;
+    font-weight: bold; 
+    font-size: 0.8em;
+}*/
+
+/*#cartfooter .valuesFromMealcart .menu-header, 
+#cartfooter .valuesFromFilter .menu-header 
+{
+    position: relative;
+    width: 20%;
+    display: inline-block;
+    text-align: center;
+    text-shadow: none;
+    padding: 3% 0px;
+    vertical-align: initial;
+    font-weight: bold; 
+    font-size: 0.8em;
+}*/
+
+#cartfooter .valuesFromMealcart .menu-header {
+    color: green;
+    padding: 0px;
+    font-weight: 700;
+    font-size: 0.8em;
+}
+#cartfooter .valuesFromFilter .menu-header {
+    color: gray;
+    padding: 0px;
+    font-weight: bold;
+    font-size: 0.8em;
+}
+#addtocart-details-page-new .nutrition-view-header {
+    background-color: #db566d;
+    width: 100%;
+    height: 43px;
+}
+#addtocart-details-page-new .nutrition-view-header .nutrition-header-nav {
+    float: left;
+    text-align: center;
+    width: 10%;
+    display: inline-block;
+    cursor: pointer;
+    background: #db566d;
+    padding: 2% 0px;
+    font-size: 1.2em;
+}
+#addtocart-details-page-new .nutrition-view-header .meal-cart-nutrition-header-data {
+    float: left;
+    width: 80%;
+    display: inline-block;
+}
+#addtocart-details-content {
+    width: 100%;
+    background-color: white;
+    overflow: auto;
+    padding-bottom: 20px;
+}
+#addtocart-details-content li {
+    border-bottom: 3px solid white;
+}
+#addtocart-details-content li:nth-child(odd) {
+    background-color: #efefef;
+    text-shadow: none;
+}
+#addtocart-details-content li:nth-child(even) {
+    background-color: #f7f7f7;
+    text-shadow: none;
+}
+#addtocart-details-content .cart-item {
+    list-style: none;
+    font-weight: 300;
+    text-shadow: none;
+    color: black;
+    list-style-type: none;
+    position: relative;
+    font-size: 0.6em;
+    margin: 0px;
+    padding: 7px 0px;
+}
+#addtocart-details-content .cart-item.selected {
+    background: #ea94b4;
+}
+#addtocart-details-content .cart-item > .row > div:nth-child(1) {
+    text-align: right;
+}
+#addtocart-details-content .cart-item > .row .food-item-name {
+    font-weight: normal;
+    font-size: 1.7em;
+    padding-left: 10px;
+    padding-bottom: 5px;
+    color: #2b0519;
+    /*  font-weight: bold;*/
+    letter-spacing: -0.3px;
+}
+#addtocart-details-content .cart-item > .row .food-serving-size {
+    font-weight: 400;
+    font-size: 1em;
+    padding-left: 10px;
+}
+#addtocart-details-content .cart-item > .row .change-food-serving-size {
+    color: white;
+    background: rgb(219, 86, 109);
+    font-size: 10px;
+    text-shadow: none;
+    padding: 2px 6px;
+    letter-spacing: 0.2px;
+}
+#addtocart-details-content .cart-item > .row .restNameInMealCart {
+    float: right;
+    white-space: nowrap;
+    width: 47%;
+    text-align: right;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    position: relative;
+    /* left: 10%;*/
+    font-weight: bold;
+    font-size: 1.3em;
+    font-style: italic;
+    color: rgb(123, 123, 123);
+}
+#compareFromMealCartButton {
+    display: none;
+    position: absolute;
+    width: 105px;
+    text-align: center;
+    bottom: 20%;
+    left: 33%;
+    background-color: #ffffff;
+    color: #DB566D;
+    font-size: 1em;
+    font-weight: 600;
+    cursor: pointer;
+    text-shadow: none;
+    border: 2px solid #DB566D;
+    border-radius: 3px;
+    line-height: 1.2em;
+    -webkit-box-shadow: 6px 6px 20px -8px rgb(40, 8, 8);
+    -moz-box-shadow: 6px 6px 20px -8px rgb(40, 8, 8);
+    box-shadow: 6px 6px 20px -8px rgb(40, 8, 8);
+}
+/*-----------------NEW MHG nutrition page---------------------*/
+
+.nutrition-header-nav {
+    float: left;
+    text-align: center;
+    width: 10%;
+    display: inline-block;
+    cursor: pointer;
+    background: #db566d;
+    padding: 2% 0px;
+    font-size: 1.2em;
+}
+.nutrition-view-header {
+    background-color: #db566d;
+    width: 100%;
+    /*  height: 42px;*/
+}
+#nutrition-details-page-new .nutrition-view-header div .menu-header.ascending {
+    background-color: #db566d;
+    font-weight: bold;
+}
+#nutrition-details-page-new .nutrition-view-header div .menu-header.descending {
+    background-color: #db566d;
+    font-weight: bold;
+}
+.food-item-name {
+    font-weight: normal;
+    font-size: 1.7em;
+    padding-left: 18px;
+    padding-bottom: 5px;
+    color: #2b0519;
+    font-weight: bold;
+    letter-spacing: -0.3px;
+}
+.menu-images-Div {
+    width: 15%;
+    margin: auto;
+    display: inline-block;
+    vertical-align: top;
+    padding-left: 10.5%;
+}
+.food-nutrition-data {
+    margin: 0px;
+    padding: 0px 27px;
+    font-size: 0.9em;
+    height: 23px;
+    text-align: center;
+}
+.food-serving-size {
+    font-weight: 400;
+    font-size: 1em;
+    padding-left: 20px;
+}
+.food-nutrient-value {
+    color: #ae6572;
+    font-size: 1.5em;
+    font-weight: bold;
+}
+.food-nutrition-data .col {
+    display: inline-block;
+    width: 20%;
+    text-align: centers;
+}
+.food-menu-item.selected:nth-child(odd) {
+    background: #ea94b4;
+    ;
+}
+.food-menu-item.selected:nth-child(even) {
+    background: #e48aab;
+}
+.bodycontent .row .name {
+    display: inline;
+    font-size: 1.4em;
+    padding: 3px 0px;
+    width: 100%;
+    float: left;
+    text-align: center;
+}
+.comparefooterstyle {
+    font-size: 10px;
+    letter-spacing: -0.5px;
+}
+.nutrition-header-heading {
+    display: table-cell;
+    width: 80%;
+    text-align: center;
+    vertical-align: middle;
+    text-shadow: none;
+    /*text-align: center;*/
+    font-weight: normal;
+    font-size: 0.8em;
+    overflow: hidden;
+}
+input[type=number]::-webkit-inner-spin-button,
+input[type=number]::-webkit-outer-spin-button {
+    -webkit-appearance: none;
+    margin: 0;
+}
+/*-----------------------------direction view popup -------------------------------------*/
+
+/*
+#light h1 {
+    display: none!important;
+}
+
+#light div {
+    min-height: 0px!important;
+}
+*/
+
+#direction-popup {
+    position: fixed;
+    top:0px;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(124, 124, 124, 0.71);
+    z-index: 1999;
+    display: none;
+}
+#direction-popup .headImg {
+    position: relative;
+    top: 15px;
+    right: 10px;
+    z-index: 99999;
+    text-align: right;
+}
+#direction-popup #light {
+    position: fixed;
+    top: 5%;
+    bottom: 5%;
+    border-radius: 10px;
+    left: 5%;
+    width: 90%;
+    height: auto;
+    background-color: white;
+    z-index: -1;
+    overflow: hidden;
+    box-shadow: 0px 13px 27px rgba(0, 0, 0, 0.7);
+}
+#light .header {
+    width: 100%;
+    float: left;
+    background-color: #FFFFFF;
+    header: 71px;
+}
+#light .map {
+    width: 100%;
+    float: left;
+    height: 88%;
+    background-color: #666666;
+}
+#light .menu {
+    margin-left: 15px;
+    list-style-type: none;
+    padding-top: 5px;
+}
+#light .distance {
+    float: right;
+    text-align: right;
+    margin-top: 1px;
+    width: 50%;
+    margin-right: 3%;
+    font-size: 18px;
+    color: #7DABDF;
+    font-weight: bold;
+}
+#direction-popup .headImg img {
+    height: 38px;
+    z-index: 5000;
+}
+/*#light h2 {
+    color: white;
+}*/
+
+/*#light a {
+    text-decoration: none;
+}*/
+
+/*
+#light .km {
+    font-size: 22px;
+    margin-top: -8px;
+    font-weight: bold;
+    color: #2793ED;
+    border: medium none;
+    outline: medium none;
+    background-color: white;
+}
+*/
+
+#light .city_addrs {
+    text-overflow: ellipsis;
+    white-space: nowrap;
+    width: 95%;
+    overflow: hidden;
+    color: rgb(73, 71, 71);
+    font-size: 12px;
+}
+#light .address_font {
+    width: 45%;
+    float: left;
+    color: rgb(48, 48, 48);
+    font-size: 21px;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    white-space: nowrap;
+}
+#light .title {
+    width: 100%;
+    color: rgb(95, 37, 37);
+    font-size: 12px;
+    font-weight: bold;
+}
+/*-----------------------------------------Forgot Password popup--------------------------*/
+
+/*-----------------------------direction view popup -------------------------------------*/
+
+/*
+#light h1 {
+    display: none!important;
+}
+
+#light div {
+    min-height: 0px!important;
+}
+*/
+
+#forgotPassword {
+    position: fixed;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(124, 124, 124, 0.71);
+    /*    z-index: 1999;*/
+    display: none;
+}
+#forgotPassword .headImg {
+    position: relative;
+    top: 12%;
+    right: 10px;
+    z-index: 99999;
+    text-align: right;
+}
+#forgotPassword #box {
+    position: fixed;
+    top: 15%;
+    /* bottom: 5%; */
+    border-radius: 20px;
+    left: 5%;
+    width: 90%;
+    height: 198px;
+    background-color: white;
+    z-index: -1;
+    overflow: hidden;
+    box-shadow: 0px 13px 27px rgba(0, 0, 0, 0.7);
+}
+#box .header {
+    width: 100%;
+    float: left;
+    background-color: #FFFFFF;
+    header: 71px;
+}
+#box .menu {
+    /*margin-left: 15px;*/
+    list-style-type: none;
+    padding-top: 5px;
+}
+#box .submit_div {
+    text-align: center;
+    width: 100%;
+}
+#forgotPassword .headImg img {
+    height: 38px;
+    z-index: 5000;
+}
+/*#light h2 {
+    color: white;
+}*/
+
+/*#light a {
+    text-decoration: none;
+}*/
+
+/*
+#light .km {
+    font-size: 22px;
+    margin-top: -8px;
+    font-weight: bold;
+    color: #2793ED;
+    border: medium none;
+    outline: medium none;
+    background-color: white;
+}
+*/
+
+#box .city_addrs {
+    text-overflow: ellipsis;
+    white-space: nowrap;
+    width: 95%;
+    overflow: hidden;
+    color: rgb(73, 71, 71);
+    font-size: 12px;
+}
+#box .forgot_box_container {
+    width: 100%;
+    float: left;
+    color: rgb(48, 48, 48);
+    font-size: 21px;
+    height: 80px;
+    padding-top: 10px;
+    padding-left: 16px;
+}
+#box .title {
+    width: 100%;
+    color: rgb(69, 51, 51);
+    padding-left: 15px;
+    font-size: 14px;
+    margin-top: 6px;
+    height: 32px;
+    border-bottom: 2px solid #DB566D;
+    font-weight: bold;
+}
+#forgotPassword .email-bottom-border-img {
+    width: 90%;
+    margin-bottom: 6%;
+}
+#forgotPassword .forgotbox {
+    background-color: white;
+    outline: none;
+    width: 90%;
+    border: none;
+    font-weight: 700;
+    color: #DB566D;
+    letter-spacing: 0.6px;
+    font-size: 17px;
+    text-align: center;
+    margin-top: 17px;
+}
+#forgotPassword .submit_button {
+    margin-top: 15px;
+    /*width: 95px;*/
+    background-color: #DB566D;
+    outline: none;
+    height: 32px;
+    border: none;
+    font-weight: 600;
+    color: white;
+    font-size: 23px;
+}
+/* ----------------------------------------------------- Compare Screen ---------------------- */
+
+#inter-rest-nutrition-compare-page .header-row .action-button-container {
+    display: table-cell;
+    width: 15%;
+    height: 100%;
+    text-align: center;
+    vertical-align: middle;
+}
+#inter-rest-nutrition-compare-page .header-row .action-button {
+    max-width: 82%;
+    vertical-align: middle;
+    margin-left: 10px;
+}
+#inter-rest-nutrition-compare-page .header-row .title-compare-header {
+    display: table-cell;
+    width: 57%;
+    text-shadow: none;
+    font-size: 1.2em;
+    /* height: 100%; 
+    vertical-align: middle;
+    text-align: center;
+    padding: 5px; 
+    font-weight: normal;*/
+}
+#inter-rest-nutrition-compare-page .contentData {
+    background-color: white;
+    overflow-y: auto;
+    height: 100%;
+    position: relative;
+    /*top: 50px;*/
+    width: 100%;
+}
+/* compare screen  */
+
+#inter-rest-nutrition-compare-page .contentData #container {
+    width: 70%;
+    /*    overflow-x: scroll;*/
+    overflow-y: hidden;
+    /*    height: 100%;*/
+    /*    position: relative;
+    height: 100%;
+    background: white;
+    text-align: left;
+    white-space: nowrap;
+    vertical-align: middle;
+    float: left; */
+}
+#inter-rest-nutrition-compare-page .contentData #container .addcolumn {
+    display: inline-block;
+    width: 50%;
+    white-space: normal;
+    text-align: center;
+    height: 87%;
+}
+#inter-rest-nutrition-compare-page .contentData .nutritionCompareHeaders {
+    background-color: white;
+    width: 30%;
+    float: left;
+    height: 100%;
+}
+/*#inter-rest-nutrition-compare-page .contentData .nutritionCompareHeaders #nutrientColumn
+{
+    background-color: white;
+    margin: auto;
+    width: 100%;
+    color:#888888;
+    overflow-y: scroll;
+    border: none;
+}*/
+
+#inter-rest-nutrition-compare-page .contentData #container .addcolumn .nutritionData .nutritionDataValues {
+    /*  display: inline-block;
+    padding: 4px 0px;
+    white-space: normal;
+    width:94%;
+    text-align: left;
+    padding-left: 12px;*/
+    height: 28px;
+    padding: 4px 0px;
+}
+#inter-rest-nutrition-compare-page .contentData .nutritionCompareHeaders #nutrientColumn > div {
+    /* display: inline-block;*/
+    padding: 4px 0px;
+    /* white-space: normal;*/
+    text-align: center;
+    height: 28px;
+    /* width:94%;*/
+}
+#nutrientcolumnheader {
+    height: 58px;
+    text-align: center;
+    padding-top: 10px;
+    /* background-color: white;
+      width: 100%;
+      font-size: 1em;
+      font-weight: bold;
+      border: none;
+     
+    
+      padding-top: 3px;
+    */
+}
+#inter-rest-nutrition-compare-page .contentData #container .addcolumn .nutritionData {
+    /*    margin:auto;
+    width:100%;
+    overflow-y: scroll;*/
+    position: relative;
+}
+.itemNameInCompare {
+    width: 100% !important;
+    font-size: .7em;
+    height: 58px;
+    overflow: hidden;
+    font-weight: bold;
+    padding-top: 10px;
+}
+.restaurantNameInCompare {
+    width: 100% !important;
+    height: 35px;
+    font-size: .8em;
+    overflow: hidden;
+    font-style: italic;
+    color: rgb(123, 123, 123);
+}
+/*.nutComparescroll::-webkit-scrollbar {
+    width: 6px;
+    height: 3px;
+    display: none;
+}
+.nutComparescroll::-webkit-scrollbar-track {
+    -webkit-box-shadow: inset 0 0 6px rgba(0, 0, 0, 0.3);
+    box-shadow: inset 0 0 6px rgba(0, 0, 0, 0.3);
+    border-radius: 10px;
+    display: none;
+}
+.nutComparescroll::-webkit-scrollbar-thumb {
+    border-radius: 10px;
+    -webkit-box-shadow: inset 0 0 6px rgba(0, 0, 0, 0.5);
+    box-shadow: inset 0 0 6px rgba(0, 0, 0, 0.3);
+    background-color: #9bbc35;
+}*/
+
+#inter-rest-nutrition-compare-page .contentData #container .addcolumn:nth-child(odd) {
+    background-color: #efefef;
+    text-shadow: none;
+}
+#inter-rest-nutrition-compare-page .contentData #container .addcolumn:nth-child(even) {
+    background-color: #f7f7f7;
+    text-shadow: none;
+}
+/*   #nutrientColumn div:nth-child(odd) {
+        background-color: #efefef;
+        text-shadow: none;
+    }
+    #nutrientColumn div:nth-child(even) {
+        background-color: #f7f7f7;
+        text-shadow: none;
+    } */
+
+#inter-rest-nutrition-compare-page .bottom_bar {
+    float: left;
+    width: 100%;
+    text-align: center;
+    height: 60px;
+    position: fixed;
+    bottom: 0px;
+}
+#inter-rest-nutrition-compare-page .bottom_bar li {
+    list-style-type: none;
+    width: 80%;
+    border: 2px solid #DB566D;
+    border-radius: 5px;
+    padding-bottom: 4px;
+}
+#inter-rest-nutrition-compare-page .bottom_bar .first_font {
+    font-size: small;
+    padding-left: 31px;
+    text-align: right;
+    line-height: 7px;
+}
+#inter-rest-nutrition-compare-page .bottom_bar .colom_first {
+    float: left;
+    width: 34%;
+    color: #EA5B75;
+    line-height: 18px;
+    margin-top: 5px;
+}
+#inter-rest-nutrition-compare-page .bottom_bar .colom_second {
+    float: left;
+    width: 33%;
+    color: #EA5B75;
+    line-height: 18px;
+    margin-top: 5px;
+}
+#inter-rest-nutrition-compare-page .bottom_bar .colom_third {
+    float: left;
+    width: 33%;
+    color: #EA5B75;
+    line-height: 18px;
+    margin-top: 5px;
+}
+/* --------------------------------------- Filter Screen ---------------------------------------------*/
+
+#nutrition-filter-edit-page #nutrition-filter-subHeader {
+    /*    overflow-y: auto;*/
+    margin: 0 auto;
+    width: 95%;
+}
+#nnutrition-filter-subHeader .label-for-select-filter {
+    font-size: 16px;
+    /*    width: 32%;*/
+    /* float: left;*/
+    font-weight: bold;
+    margin-right: 6px;
+    /*  text-align:center; */
+}
+#nutrition-filter-subHeader .filter-select-div {
+    /*  width:68%;*/
+    float: left;
+}
+#nutrition-filter-subHeader .filter-select-div .filter-select {
+    font-size: 18.5px;
+    width: 185px;
+    padding: 8px 0px;
+    font-style: normal;
+    font-weight: bold;
+    outline: none;
+    color: rgb(228, 101, 122);
+    border: none;
+    -webkit-appearance: none;
+    -moz-appearance: none;
+    background: url("../img/arrow-down-01-32.png") no-repeat right #fff;
+}
+#nutrition-filter-subHeader .nutrition-view-diet-plan-details {
+    border: 1px solid rgb(158, 155, 155);
+    width: 80px;
+}
+#nutrition-filter-diet-value {
+    width: 100%;
+    padding: 0px;
+    color: black;
+    font-size: 26px;
+    text-align: center;
+    line-height: 0px;
+    font-weight: bold;
+    background-color: white;
+    outline: none;
+    border: none;
+}
+#nutrition-filter-subHeader .label-for-calories {
+    font-size: 14px;
+    font-weight: bold;
+    color: rgb(98, 93, 93);
+    letter-spacing: 1px;
+    text-align: center;
+    margin-top: -5px;
+}
+#nutrition-filter-subHeader .nutrition-view-meal-percent-div {
+    width: 75px;
+    margin: 0px 10px 0px 15px;
+}
+#nutrition-filter-meal-percentage {
+    border: 2px solid rgb(255, 174, 187);
+    font-size: 18px;
+    font-weight: bold;
+    color: rgb(242, 186, 195);
+    margin-left: 0px;
+    width: 50px;
+    box-shadow: none;
+    padding: 0;
+    margin: 0;
+    line-height: 0px;
+    text-align: center;
+}
+#apply-meal-percentage {
+    float: left;
+    margin: 0px 3px;
+    padding: 5px;
+    font-size: 1em;
+    color: white;
+    line-height: 1em;
+    background-color: rgb(228, 101, 122);
+    text-align: center;
+    cursor: pointer;
+}
+#nutrition-filter-apply {
+    text-align: center;
+    float: right;
+    margin: 5px 5px 0px 5px;
+    width: 80px;
+    height: 33px;
+    font-size: 20px;
+    background-color: rgb(228, 101, 122);
+    color: white;
+    font-weight: 700;
+    cursor: pointer;
+    text-shadow: none;
+}
+#nutrition-filter-subHeader .nutrition-header {
+    color: rgb(77, 73, 73);
+    letter-spacing: 0.5px;
+    display: table;
+    text-align: center;
+    background: rgb(245, 199, 207);
+    border-top: 2px solid rgb(242, 166, 179);
+    margin-top: 5px;
+    width: 100%;
+}
+#nutrition-filter-subHeader .nutrition-header .nutrition-item {
+    display: table-cell;
+    font-size: 15px;
+    vertical-align: middle;
+    text-shadow: none;
+    font-weight: bold;
+    width: 15%;
+}
+#nutrition-filter-subHeader .nutrition-header .nutrition-item span {
+    font-size: 11px;
+    display: block;
+}
+#nutrition-filter-details {
+    font-size: 0.9em;
+    margin: 0 auto;
+    width: 95%;
+    color: rgb(113, 113, 113);
+    margin-top: 8px;
+    /*  overflow: auto;*/
+}
+#nutrition-filter-details .nutrition-filter-row {
+    padding: 5px 0px;
+    display: table;
+    width: 100%;
+}
+#nutrition-filter-details .nutrition-filter-row .filter-checkbox-column {
+    display: table-cell;
+    width: 15%;
+    text-align: center;
+}
+#nutrition-filter-details .nutrition-filter-row .filterNutrientsCaption {
+    display: table-cell;
+    width: 20%;
+    text-align: center;
+}
+#nutrition-filter-details .nutrition-filter-row .filterNutrientsforDailyLimit {
+    display: table-cell;
+    width: 20%;
+    text-align: center;
+}
+#nutrition-filter-details .nutrition-filter-row .filterNutrientsforMealLimit {
+    display: table-cell;
+    width: 20%;
+    text-align: center;
+}
+#nutrition-filter-details .nutrition-filter-row .filterNutrientsforFilterValue {
+    display: table-cell;
+    width: 25%;
+    text-align: center;
+}
+#nutrition-filter-details .nutrition-filter-row .filterNutrientsforFilterValue input {
+    width: 60px;
+    border: 2px solid rgb(242, 177, 188);
+    box-shadow: none;
+    text-align: center;
+}
+#nutrition-filter-edit-page .filter-footer {
+    width: 100%;
+    background-color: rgb(228, 101, 122);
+    position: fixed;
+    bottom: 0px;
+    height: 42px;
+}
+/*------------------------------profile changes -----------------*/
+
+#basic-profile-container input[type="number"]::-webkit-input-placeholder {
+    color: black;
+}
+#basic-profile-container input[type="number"]::-moz-placeholder {
+    color: black;
+}
+#basic-profile-container input[type="number"]:-moz-placeholder {
+    color: black;
+}
+#basic-profile-container input[type="number"]:-ms-input-placeholder {
+    color: black;
+}
+/* -------------------------  nutrition profil changes -------------------------------------- */
+
+#nutrition-profile-page #nutrition-profile-subHeader {
+    width: 95%;
+    margin: 0 auto;
+}
+#nutrition-profile-subHeader .second-sub-header .calories-display-div {
+    border: 2px solid rgb(147, 147, 147);
+    width: 40%;
+    text-align: center;
+    float: left;
+    margin-top: 5px;
+}
+#nutrition-profile-subHeader .second-sub-header .calories-display-div #calorielistId {
+    /*  width: 81px;*/
+    margin-left: 5px;
+    font-size: 2em;
+    background-color: white;
+    font-weight: 700;
+    -webkit-appearance: none;
+    -moz-appearance: none;
+    text-indent: 1px;
+    box-shadow: none;
+    outline: none;
+    border: none;
+}
+#nutrition-profile-subHeader .second-sub-header .calories-display-div .label-for-calories {
+    /*  margin-top: -2px;*/
+    color: rgb(71, 63, 63);
+    /* margin-left: 4px;*/
+    font-weight: bold;
+    letter-spacing: 2px;
+    text-align: center;
+}
+#resetProfileId {
+    padding: 4px;
+    width: 86px;
+    text-shadow: none;
+    text-align: center;
+    cursor: pointer;
+    background-color: rgb(228, 101, 122);
+    color: white;
+    float: right;
+    font-size: 22px;
+    margin: 28px 0px 0px 0px;
+}
+#nutrition-profile-subHeader .profile-header {
+    width: 100%;
+    color: #CCC;
+    background: rgb(252, 211, 217);
+    position: relative;
+    margin-top: 8px;
+    border-top: 2px solid rgb(231, 155, 167);
+}
+#nutrition-profile-page #nutrientContainerId {
+    width: 95%;
+    background-color: white;
+    margin: auto;
+    margin-top: 5px;
+}
+#nutrientContainerId label
+{
+    width: 100%;
+    font-size: 1em;
+    font-weight: bold;
+    font-size: 14px;
+    letter-spacing: 0.5px;
+    color: rgb(115, 115, 115);
+    margin: 0px;
+}
+
+#skipbtnid_div,
+#meal-percentage-skip_div
+{
+  width: 42%;
+  float: left;
+  text-align: center;
+  height: 100%;
+  display: table;
+}
+#skipbtnid,
+#meal-percentage-skip
+{
+  font-size: 19px;
+  color: rgb(0, 0, 0);
+  text-decoration: none;
+  outline: none;
+  text-shadow: none;
+  font-weight: normal;
+  display: table-cell;
+  vertical-align: middle;
+}
+#savebtnid_div,
+#meal-percentage-save_div
+{
+  width: 56%;
+  float: left;
+  height: 100%;
+}
+#savebtnid,
+#meal-percentage-save
+{
+  font-size: 2em;
+  color: rgb(0, 0, 0);
+  text-decoration: none;
+  outline: none;
+  text-shadow: none;
+  font-weight: normal;
+  display: table-cell;
+  vertical-align: middle;
+}
+#nut-profile-arrowid,
+#mp-arrowid
+{
+  width: 25px;
+  height: 35px;
+  display: block;
+}
+
+/*------------------------------------------------------ Meal Percentage----------------- */
+
+/*--------------------------------------------Sla Page Code css-------------------*/
+
+.sla-page {
+    position: fixed;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(124, 124, 124, 0.71);
+    z-index: 1999;
+    display: none;
+}
+.sla-page .headImg {
+    position: relative;
+    /*top: 12%;*/
+    top: 25px;
+    right: 10px;
+    z-index: 99999;
+    text-align: right;
+}
+#sla_box {
+    position: fixed;
+    top: 26px;
+    border-radius: 5px;
+    left: 5%;
+    width: 90%;
+    bottom: 25px;
+    height: auto;
+    background-color: white;
+    z-index: -1;
+    overflow: hidden;
+    box-shadow: 0px 13px 27px rgba(0, 0, 0, 0.7);
+}
+#sla_box .header {
+    width: 100%;
+    background-color: #FFFFFF;
+    header: 71px;
+    text-align: center;
+}
+#sla_box .center {
+    width: 96%;
+    overflow-y: auto;
+    height: 79%;
+    margin-left: 2%;
+    margin-right: 2%;
+    text-align: justify;
+    margin-top: 0px;
+    word-wrap: break-word;
+    font-size: 15px;
+    letter-spacing: -0.1px;
+}
+#sla_box .footer {
+    height: 50px;
+    width: 100%;
+    text-align: center;
+    bottom: 0;
+    color: #FFC9D2;
+    border-radius: 0 0px 5px 5px;
+    position: absolute;
+    background-color: #2b0519;
+    font-size: 26px;
+    padding-top: 5px;
+}
+/*#sla_box .footer .partition1 {
+    width: 50%;
+    height: 50px;
+    border-right: 1px solid;
+    border-radius: 0px 0px 0px 5px;
+    font-size: 26px;
+    float: left;
+    color: #FFC9D2;
+    background-color: #2b0519;
+    padding-top: 5px;
+}*/
+
+#sla_box .footer .partition2 {
+    width: 50%;
+    height: 50px;
+    border-radius: 0px 0px 5px 0px;
+    font-size: 26px;
+    float: left;
+    color: #FFC9D2;
+    background-color: #2b0519;
+    padding-top: 5px;
+}
+#sla .headImg img {
+    height: 38px;
+    z-index: 5000;
+}
+#sla_box .title {
+    padding-left: 10px;
+    padding-right: 10px;
+    color: #FFC9D2;
+    background-color: #2b0519;
+    padding-top: 1px;
+    line-height: 9px;
+    font-size: 17px;
+    height: 50px;
+}
+#sla_box .title img {
+    height: 30px;
+}
+/*-----------------Sla Page Code End--------------------------*/
+
+#meal-percentage-page .meal-percentage-container {
+    width: 90%;
+    margin: 0 auto;
+}
+#meal-percentage-page ul.list {
+    padding: 0px;
+    margin: 0px;
+}
+#meal-percentage-page .meal-percentage-container ul li {
+    list-style-type: none;
+    margin: 0px;
+}
+#meal-percentage-page .meal-percentage-container label.item-input-wrapper {
+    width: 30%;
+    text-align: right;
+    display: inline-block;
+    font-weight: 400;
+    font-size: 16px;
+    margin: 0px;
+}
+#meal-percentage-page .meal-percentage-container .item-input-inset div {
+    margin: 10px 0px;
+    margin-left: 10px;
+    list-style-type: none;
+    width: 60%;
+    display: inline-block;
+    font-size: 23px;
+    font-weight: bold;
+}
+#meal-percentage-page .meal-percentage-container label.item-input-wrapper input {
+    width: 65px;
+    text-align: right;
+    border: 2px solid #D7929D;
+    height: 32px;
+    font-size: 1em;
+    line-height: 1.3;
+    padding-right: 10px;
+}
+#meal-percentage-total {
+    width: 30%;
+    text-align: right;
+    height: 29px;
+    color: #D7929D;
+    display: inline-block;
+    font-size: 32px;
+    /*  padding-right: 15px;*/
+}
+.approx {
+    font-size: 7.5px;
+    letter-spacing: 0.6px;
+    text-align: right;
+    margin-top: -9px;
+    margin-right: 10px;
+    margin-bottom: 2px;
+}
+.unit_points {
+    font-size: 10px;
+    margin-left: 3px;
+}
+.distance_calculation {
+    margin-top: -24px;
+    margin-right: 10%;
+    text-align: right;
+    margin-bottom: 6px;
+}
+.lable-for-showpassword {
+    color: #D7C4CE;
+    letter-spacing: -0.5px;
+    font-size: 14px;
+}
+/*.clickableEffectMain {
+    -webkit-tap-highlight-color: rgba(0, 0, 0, 0);
+    -webkit-tap-highlight-color: transparent;
+}*/
+
+.clickableEffectMain {
+    -webkit-tap-highlight-color: #C8C8C8;
+    background-color: #C8C8C8 !important;
+    border: 3px solid white;
+}
+
+@media screen and (device-aspect-ratio: 2/3) {
+    #cartfooter {
+        /*height: 50px!important;*/
+        height: 60px!important;
+    }
+}
+@media screen and (device-aspect-ratio: 2/3) {
+    #addtocart-details-page-new #cartfooter .meallimit_font {
+        font-size: 8px!important;
+    }
+}
+distance_calculation@media screen and (device-aspect-ratio: 2/3) {
+    .distance_calculation {
+        font-size: 8px!important;
+    }
+}
+#nutrition-profile-page .textbox_calculation {
+    width: 50%;
+    height: 29px;
+    font-weight: bold;
+    font-size: 12px;
+    color: rgb(165, 165, 165);
+}
+#nutrition-profile-page .textbox_calculation_second {
+    width: 75%;
+    height: 30px;
+    font-weight: bold;
+    font-size: 12px;
+    letter-spacing: -1px;
+    color: rgb(165, 165, 165);
+}
+.item_clickable {
+    width: 120px!important;
+}
+.menu_clickable {
+    -webkit-tap-highlight-color: #C8C8C8;
+    max-width: 80%!important;
+}
+.main_menu_clickable {
+    -webkit-tap-highlight-color: #C8C8C8;
+    max-width:95%!important;
+}
+.search_clickable {
+    -webkit-tap-highlight-color: #C8C8C8;
+    max-width: 60%!important;
+}
+.more-info-btn:active {
+    margin-left: 3px;
+    margin-right: 3px;
+    margin-bottom: 3px;
+    margin-top: -3px;
+}
+.get-direction:active {
+    margin-top: -3px;
+    margin-left: 3px;
+    margin-right: 3px;
+    margin-bottom: 3px;
+}
+.menu-btn:active {
+    -webkit-filter: hue-rotate(50deg);
+    -moz-filter: hue-rotate(350deg);
+    -o-filter: hue-rotate(50deg);
+    padding: 0px 0px 3px 3px;
+}
+.menu_btn_clickable {
+    -webkit-filter: hue-rotate(50deg)!important;
+    -moz-filter: hue-rotate(350deg)!important;
+    -o-filter: hue-rotate(50deg)!important;
+    padding: 0px 0px 3px 3px!important;
+}
+.feeltap_back_button_clickable {
+    max-width: 65%!important;
+}
+.resetProfileId_clickable {
+    font-size: 19px!important;
+    -webkit-tap-highlight-color: #C8C8C8;
+    background-color: #C8C8C8 !important;
+}
+.popup_link_clickable {
+    color: #2b0519!important;
+}
+.clickableEffectnutrition {
+    color: black!important;
+    -webkit-tap-highlight-color: #777373;
+    background-color: #777373 !important;
+}
+#myLocation {
+    text-align: center;
+    display: table;
+    margin-left: 0px!important;
+    width: 100%;
+    background-color: #AB7491;
+    color: #ffc9d2;
+    position: relative;
+}
+.see-more-restaurant {
+    position: absolute;
+    /*bottom: 70px;*/
+    border: none;
+    width: 100%;
+    outline: none;
+    text-align: center;
+}
+.see-more-restaurant button {
+    display: none;
+    background: #ae6572;
+    padding: 0;
+    color: #fff;
+    width: 100%;
+    line-height: 15px;
+}
+.see-more-restaurant button span:first-child {
+    display: block;
+}
+.see-more-restaurant button span:last-child {
+    font-size: 12px;
+}
+.junk-rest {
+    display: none;
+}
+#collapseAllSelectedMenuItems {
+    display: none;
+}
+.see-more-effect {
+    background-color: rgb(171, 171, 171)!important;
+    color: white!important;
+}
+.filterName {
+    font-weight: bold!important;
+    font-size: 11px!important;
+    margin-top: 12%!important;
+}
+.P-b-google {
+    /*  position: absolute;*/
+    position: fixed;
+    bottom: 0;
+    z-index: 1007;
+    width: 100%;
+    text-align: right;
+    /* right: 0px; */
+    padding: 4px 2px 2px 2px;
+    background-color: rgba(255, 255, 255, 0.97);
+}
+.currentlocationbuttoneffect {
+    height: 34px!important;
+    width: 34px!important;
+    margin: 1px 1px 1px 1px!important;
+}
+.pac-container {
+    color: red!important;
+    position: fixed!important;
+    /*  border:2px solid green!important;*/
+}
+.termsConditions {
+    text-align: left;
+    bottom: 80px;
+    left: 0;
+    right: 0;
+    /*position: absolute;   */
+}
+.termsConditions input {
+    float: left;
+    margin-top: 6px;
+    margin-right: 7px;
+    margin-bottom: 11px;
+}
+.termsConditions a{
+color:#dd198c;
+font-weight: bold;
+}
+.filterName span {
+    vertical-align: -webkit-baseline-middle;
+}
+
+
+/*-----------------------Add Filter Popup css ----------------------*/
+#addFilter {
+    display: none;
+  top: 0px;
+  position: fixed;
+  width: 100%;
+  height: 100%;
+  background-color: rgba(124, 124, 124, 0.71);
+  z-index: 1;
+}
+#addFilter .headImg {
+    position: relative;
+    top: 12%;
+    right: 10px;
+    z-index: 99999;
+    text-align: right;
+}
+#addFilter #add_filter_container {
+    position: fixed;
+    top: 15%;
+    /* bottom: 5%; */
+    border-radius: 20px;
+    left: 5%;
+    width: 90%;
+    height: 198px;
+    background-color: white;
+    z-index: -1;
+    overflow: hidden;
+    box-shadow: 0px 13px 27px rgba(0, 0, 0, 0.7);
+}
+#add_filter_container .header {
+    width: 100%;
+    float: left;
+    background-color: #FFFFFF;
+    header: 71px;
+}
+#add_filter_container .menu {
+    /*margin-left: 15px;*/
+    list-style-type: none;
+    padding-top: 5px;
+}
+#add_filter_container .submit_div {
+    text-align: center;
+    width: 100%;
+}
+#addFilter .headImg img {
+    height: 38px;
+    z-index: 5000;
+}
+
+#add_filter_container .city_addrs {
+    text-overflow: ellipsis;
+    white-space: nowrap;
+    width: 95%;
+    overflow: hidden;
+    color: rgb(73, 71, 71);
+    font-size: 12px;
+}
+#add_filter_container .forgot_box_container {
+    width: 100%;
+    float: left;
+    color: rgb(48, 48, 48);
+    font-size: 21px;
+    height: 80px;
+    padding-top: 10px;
+    padding-left: 16px;
+}
+#add_filter_container .title {
+    width: 100%;
+    color: rgb(69, 51, 51);
+    padding-left: 15px;
+    font-size: 14px;
+    margin-top: 6px;
+    height: 32px;
+    border-bottom: 2px solid #DB566D;
+    font-weight: bold;
+}
+#addFilter .email-bottom-border-img {
+    width: 90%;
+    margin-bottom: 6%;
+}
+#addFilter .forgotbox {
+      background-color: white;
+      outline: none;
+      width: 90%;
+      border: none;
+      font-weight: bold;
+      color: #DB566D;
+      letter-spacing: 0.6px;
+      font-size: 17px;
+      text-align: center;
+      margin-top: 17px;
+}
+#addFilter .submit_button {
+    -webkit-appearance:none;
+    -webkit-border:none;
+    margin-top: 15px;
+    width: 95px;
+    background-color: #DB566D;
+    outline: none;
+    height: 32px;
+    border: none;
+    font-weight: 600;
+    color: white;
+    font-size: 23px;
+}
+#addFilter input[type="text"]::-webkit-input-placeholder {
+    font-size: 12px;
+}
+#addFilter input[type="text"]::-moz-placeholder {
+    font-size: 12px;
+}
+#addFilter input[type="text"]:-ms-input-placeholder {
+    font-size: 12px;
+}
+
+
+.popupMenu_profil_page{
+    width: 100%;
+  z-index: 1111;
+  position: absolute;
+  height: 92%;
+  visibility: hidden;
+  top: 8%;  
+    
+}
