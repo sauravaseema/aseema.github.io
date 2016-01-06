@@ -422,6 +422,7 @@ myapp.service('translationService', function () {
         console.log(lang[selected_lang]);
         var result = lang[selected_lang];
         $scope.fields= result;
+        console.log("saurav"+result);
 
     };
       
